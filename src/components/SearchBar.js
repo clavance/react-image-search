@@ -4,7 +4,7 @@ class SearchBar extends React.Component {
   state = { term: "" };
 
   // prevent form from automatically submitting on user hitting return
-  // arrow function for binding
+  // arrow function for binding! or 'this' will refer to undefined
   onFormSubmit = event => {
     event.preventDefault();
     this.props.onSubmit(this.state.term);
