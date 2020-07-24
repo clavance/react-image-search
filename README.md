@@ -25,6 +25,8 @@ npm start
 
 The app will run in `http://localhost:3000`.
 
-### Terms
+### Terms and Credits
 
 See [Unsplash's](https://unsplash.com/license) fair use terms.
+
+This project is based on [Stephen Grider's course](https://www.udemy.com/course/react-redux/).
